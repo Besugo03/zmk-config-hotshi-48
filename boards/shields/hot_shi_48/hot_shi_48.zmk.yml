@@ -3,10 +3,9 @@
 # for instructions.
 
 file_format: "1"
-id: hotshi
-name: hotshi
-type: board
-arch: arm
+id: hot_shi_48
+name: hot-shi-48
+type: shield
 
 # Set this to a URL that documents the keyboard.
 url: https://example.com
@@ -17,15 +16,9 @@ features:
   - keys
   - studio  # Remove this line if your keyboard will not support ZMK Studio
 
-outputs:
-  - usb
-  - ble
+requires:
+  - pro_micro
 
 siblings:
-  - hotshi_left
-  - hotshi_right
-# If your board has multiple revisions in its board.yml, create a matching list here:
-# revisions:
-#   - 2.0.0
-#   - 1.0.0
-# default_revision: 2.0.0
+  - hot_shi_48_left
+  - hot_shi_48_right

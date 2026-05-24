@@ -1,0 +1,5 @@
+config SHIELD_HOT_SHI_48_LEFT
+    def_bool $(shields_list_contains,hot_shi_48_left)
+
+config SHIELD_HOT_SHI_48_RIGHT
+    def_bool $(shields_list_contains,hot_shi_48_right)

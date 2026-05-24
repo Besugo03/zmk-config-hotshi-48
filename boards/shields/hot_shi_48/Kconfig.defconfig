@@ -1,0 +1,16 @@
+if SHIELD_HOT_SHI_48_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "hot-shi-48"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_HOT_SHI_48_LEFT
+
+if SHIELD_HOT_SHI_48_LEFT || SHIELD_HOT_SHI_48_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_HOT_SHI_48_LEFT || SHIELD_HOT_SHI_48_RIGHT
