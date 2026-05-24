@@ -14,6 +14,6 @@
 ---
  include:
    - board: nice_nano_v2
-     shield: hotshi_left
+     shield: hot_shi_48_left
    - board: nice_nano_v2
-     shield: hotshi_right
+     shield: hot_shi_48_right
