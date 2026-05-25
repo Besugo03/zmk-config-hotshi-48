@@ -78,8 +78,8 @@
 
         nav_layer {
             bindings = <
-                &trans    &kp ESC &mkp RCLK &mmv MOVE_up &mkp LCLK &trans       &msc SCRL_UP &kp LC(LEFT) &kp UP &kp LC(RIGHT) &trans &kp F12
-                &trans    &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT  &msc SCRL_DOWN &kp LEFT &kp DOWN &kp RIGHT &kp K_MENU &trans
+                &trans    &kp ESC &mkp RCLK &mmv MOVE_up &mkp LCLK &trans       &msc SCRL_UP &kp LC(LEFT) &kp UP &kp LC(RIGHT) &trans &kp F12 
+                &trans    &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans  &msc SCRL_DOWN &kp LEFT &kp DOWN &kp RIGHT &kp K_MENU &trans
                 &trans    &trans &trans &trans &trans &trans                    &trans &kp HOME  &kp LA(F4) &kp END &trans  &bootloader
                 &trans    &trans &trans                                           &trans  &trans   &trans
                 &trans    &trans &trans                                           &trans  &trans   &trans
