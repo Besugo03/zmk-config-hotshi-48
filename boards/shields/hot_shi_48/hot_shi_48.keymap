@@ -47,7 +47,7 @@
                 &kp TAB   &kp Q  &kp W  &kp F  &kp P  &kp G      &kp J  &kp L  &kp U     &kp Y    &kp SEMI  &kp DEL
                 &kp LSHFT &kp A  &kp R  &kp S  &kp T  &kp D      &kp H  &kp N  &kp E     &kp I    &kp O     &kp SQT
                 &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
-                                &kp TAB  &kp SPACE  &kp SPACE      &kp RET   &kp BSPC &kp RET
+                                &lt _SYM TAB  &kp SPACE  &kp SPACE      &kp RET   &kp BSPC &lt _NAV ENTER
                                 &kp LALT  &kp DEL &kp BSPC      &kp TAB   &kp BSPC &kp RCTRL
             >;
         };
