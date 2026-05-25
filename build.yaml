@@ -12,10 +12,10 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
- include:
-   - board: nice_nano//zmk
-     shield: hot_shi_48_left
-   - board: nice_nano//zmk
-     shield: hot_shi_48_right
-   - board: nice_nano//zmk
-     shield: settings_reset
+include:
+  - board: nice_nano//zmk
+    shield: hot_shi_48_left
+  - board: nice_nano//zmk
+    shield: hot_shi_48_right
+  - board: nice_nano//zmk
+    shield: settings_reset
