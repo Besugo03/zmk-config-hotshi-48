@@ -29,7 +29,7 @@ combos {
         combo_win_o {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <19 40>;
+            key-positions = <22 40>;
             bindings = <&sk LGUI>;
             layers = <_BASE>;
         };
@@ -37,7 +37,7 @@ combos {
         combo_alt_i {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <18 40>;
+            key-positions = <21 40>;
             bindings = <&sk LALT>;
             layers = <_BASE>;
         };
@@ -45,7 +45,7 @@ combos {
         combo_shift_e {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <17 40>;
+            key-positions = <20 40>;
             bindings = <&sk LSHIFT>;
             layers = <_BASE>;
         };
@@ -53,7 +53,7 @@ combos {
         combo_ctrl_n {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <16 40>;
+            key-positions = <19 40>;
             bindings = <&sk LCTRL>;
             layers = <_BASE>;
         };
@@ -121,9 +121,9 @@ combos {
             bindings = <
                 &kp GRAVE &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6 &kp N7 &kp N8  &kp N9   &kp N0   &kp DEL
                 &trans    &kp DLLR &kp PLUS &kp LPAR &kp RPAR &kp AT      &kp BSLH &kp MINUS &kp EQUAL &kp UNDER &kp STAR &kp GRAVE
-                &trans    &kp EXCL &kp HASH &kp LBRC &kp RBRC &trans      &kp AMPS &kp LBKT  &kp RBKT  &kp PRCNT   &kp CARET   &kp BSLH
+                &bootloader    &kp EXCL &kp HASH &kp LBRC &kp RBRC &trans      &kp AMPS &kp LBKT  &kp RBKT  &kp PRCNT   &kp CARET   &kp BSLH
 
-                &trans    &trans &trans                                           &trans  &kp LC(BSPC)   &mo _EXTRA
+                &trans    &trans &trans                                           &trans  &kp LC(BSP)   &mo _EXTRA
                 &trans    &trans &trans                                           &trans  &trans   &trans
             >;
         };
