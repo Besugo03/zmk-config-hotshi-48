@@ -123,7 +123,7 @@ combos {
                 &kp LSHFT &kp LSHFT  &kp A  &kp W  &kp D  &kp F      &kp H  &kp J  &kp K     &kp L    &kp SEMI  &kp SQT
                 &kp LCTRL &kp LCTRL  &kp X  &kp S  &kp V  &kp B      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
 
-                                 &kp TAB  &kp SPACE  &mo  _GAMING2      &kp RET   &mo 2    &kp RALT
+                                 &kp TAB  &kp SPACE  &mo _GAMING2      &kp RET   &mo 2    &kp RALT
                                  &kp LALT  &kp DEL &tog _GAMING      &kp TAB   &kp BSPC &kp RCTRL
             >;
         };
@@ -167,7 +167,7 @@ combos {
                 &kp LSHFT &kp LSHFT  &kp A  &kp W  &kp D  &kp G      &kp H  &kp J  &kp K     &kp L    &kp SEMI  &kp SQT
                 &kp LCTRL &kp LCTRL  &kp Z  &kp S  &kp C  &kp K      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
 
-                                 &kp LGUI  &mo 1  &kp SPACE      &kp RET   &mo 2    &kp RALT
+                                 &kp LGUI  &mo 1  &trans      &kp RET   &mo 2    &kp RALT
                                  &kp LALT  &kp DEL &kp BSPC      &kp TAB   &kp BSPC &kp RCTRL
             >;
         };
