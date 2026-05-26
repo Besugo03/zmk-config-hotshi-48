@@ -20,6 +20,8 @@
 // Define a quick tapping term for combos.
 #define COMBO_TERM 40
 
+/ {
+    
 combos {
         
         compatible = "zmk,combos";
@@ -92,7 +94,6 @@ combos {
     };
 
 
- {
     keymap {
         compatible = "zmk,keymap";
 
