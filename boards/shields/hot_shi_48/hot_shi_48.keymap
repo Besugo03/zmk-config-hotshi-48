@@ -21,7 +21,7 @@
 #define COMBO_TERM 40
 
 / {
-    
+
 combos {
         
         compatible = "zmk,combos";
@@ -29,7 +29,7 @@ combos {
         combo_win_o {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <20 41>;
+            key-positions = <19 40>;
             bindings = <&sk LGUI>;
             layers = <_BASE>;
         };
@@ -37,7 +37,7 @@ combos {
         combo_alt_i {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <19 41>;
+            key-positions = <18 40>;
             bindings = <&sk LALT>;
             layers = <_BASE>;
         };
@@ -45,7 +45,7 @@ combos {
         combo_shift_e {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <18 41>;
+            key-positions = <17 40>;
             bindings = <&sk LSHIFT>;
             layers = <_BASE>;
         };
@@ -53,7 +53,7 @@ combos {
         combo_ctrl_n {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <17 41>;
+            key-positions = <16 40>;
             bindings = <&sk LCTRL>;
             layers = <_BASE>;
         };
@@ -63,7 +63,7 @@ combos {
         combo_win_a {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <14 38>;
+            key-positions = <13 37>;
             bindings = <&sk LGUI>;
             layers = <_BASE>;
         };
@@ -71,7 +71,7 @@ combos {
         combo_alt_r {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <15 38>;
+            key-positions = <14 37>;
             bindings = <&sk LALT>;
             layers = <_BASE>;
         };
@@ -79,7 +79,7 @@ combos {
         combo_shift_s {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <16 38>;
+            key-positions = <15 37>;
             bindings = <&sk LSHIFT>;
             layers = <_BASE>;
         };
@@ -87,7 +87,7 @@ combos {
         combo_ctrl_t {
             timeout-ms = <40>;
             // triggers one time shift when pressing N and backspace
-            key-positions = <17 38>;
+            key-positions = <16 37>;
             bindings = <&sk LCTRL>;
             layers = <_BASE>;
         };
