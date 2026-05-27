@@ -102,11 +102,11 @@ combos {
         };
 
         gaming_layer_toggle {
-            timeout-ms = <60>
-            key-positions = <37 43> // space + button underneath
-            bindings = <&tog _GAMING>
-            layers = <_BASE _GAMING>
-        },
+            timeout-ms = <60>;
+            key-positions = <37 43>; // space + button underneath
+            bindings = <&tog _GAMING>;
+            layers = <_BASE _GAMING>;
+        };
     };
 
 
@@ -119,7 +119,7 @@ combos {
                 &kp LSHFT &kp A  &kp R  &kp S  &kp T  &kp D      &kp H  &kp N  &kp E     &kp I    &kp O     &kp SQT
                 &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
                 
-                                &lt _SYM TAB  &kp SPACE  &kp SPACE      &kp RET   &kp BSPC &lt _NAV ENTER
+                                &lt _SYM TAB  &kp SPACE  &kp LGUI      &kp RET   &kp BSPC &lt _NAV ENTER
                                 &kp LALT  &kp DEL &tog _GAMING      &kp TAB   &kp BSPC &kp RCTRL
             >;
         };
