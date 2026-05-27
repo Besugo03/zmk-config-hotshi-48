@@ -106,7 +106,7 @@ combos {
             key-positions = <37 43> // space + button underneath
             bindings = <&tog _GAMING>
             layers = <_BASE _GAMING>
-        }
+        },
     };
 
 
