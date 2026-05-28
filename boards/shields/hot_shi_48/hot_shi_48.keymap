@@ -15,6 +15,7 @@
 #define _GAMING 4
 #define _GAMING2 5
 #define _GAMING3 6
+#define _FKEYS 7
 
 // Define a tapping term for our Layer-Tap keys.
 #define TAPPING_TERM 200
@@ -183,12 +184,24 @@ combos {
         gaming_layer_3 {
             bindings = <
                 &kp ESC   &kp ESC  &kp N6  &kp N7  &kp N8  &kp N9      &kp Y  &kp U  &kp I     &kp O    &kp P     &kp BSPC
-                &kp TAB &kp LSHFT  &kp A  &kp W  &kp D  &kp N0      &kp H  &kp J  &kp K     &kp L    &kp SEMI  &kp SQT
+                &kp TAB  &kp LSHFT  &kp A  &kp W  &kp D  &kp N0      &kp H  &kp J  &kp K     &kp L    &kp SEMI  &kp SQT
                 &kp LCTRL &kp LCTRL  &kp T  &kp S  &kp B  &kp G      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
 
                                  &mo _GAMING2  &kp SPACE  &mo _GAMING3      &kp RET   &mo 2    &kp RALT
                                  &kp LALT  &kp DEL &tog _GAMING      &kp TAB   &kp BSPC &kp RCTRL
             >;
         };
+
+        f_keys {
+            bindings = <
+                &kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6      &kp F7  &kp F8  &kp F9     &kp F10    &kp F11  &kp F12
+                &kp LSHFT &kp A  &kp R  &kp S  &kp T  &kp D      &kp H  &kp N  &kp E     &kp I    &kp O     &kp SQT
+                &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
+                
+                                &lt _SYM TAB  &kp SPACE  &kp LGUI      &kp RET   &kp BSPC &lt _NAV ENTER
+                                &kp LALT  &kp DEL &tog _GAMING      &kp TAB   &kp BSPC &kp RCTRL
+            >;
+
+       };
     };
 };
