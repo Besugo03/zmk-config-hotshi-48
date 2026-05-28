@@ -121,7 +121,7 @@ combos {
                 &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B      &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSFT
                 
                                 &lt _SYM TAB  &kp SPACE  &kp LGUI      &kp RET   &kp BSPC &lt _NAV ENTER
-                                &kp LALT  &kp DEL &tog _GAMING      &kp TAB   &kp BSPC &kp RCTRL
+                                &kp LALT  &kp DEL &tog _GAMING      &mo _FKEYS   &kp BSPC &kp RCTRL
             >;
         };
 
@@ -140,7 +140,7 @@ combos {
         nav_layer {
             bindings = <
                 &trans    &kp ESC   &mkp RCLK       &mmv MOVE_UP    &mkp LCLK       &trans      &msc SCRL_UP &kp LC(LEFT) &kp UP &kp LC(RIGHT) &trans &kp F12 
-                &trans    &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &kp CAPS      &msc SCRL_DOWN &kp LEFT &kp DOWN &kp RIGHT &kp K_MENU &trans
+                &trans    &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &kp CAPS      &msc SCRL_DOWN &kp LEFT &kp DOWN &kp RIGHT &kp K_CMENU &trans
                 &trans    &trans    &trans          &kp K_BACK          &kp K_FORWARD           &trans      &trans &kp HOME  &kp LA(F4) &kp END &trans  &bootloader
 
                                                 &mo _EXTRA    &trans    &trans                  &trans  &trans   &trans
