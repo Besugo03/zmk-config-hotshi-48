@@ -15,7 +15,11 @@
 include:
   - board: nice_nano//zmk
     shield: hot_shi_48_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: hot_shi_48_right
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: settings_reset
