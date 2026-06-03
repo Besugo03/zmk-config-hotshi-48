@@ -13,71 +13,71 @@
         keys 
             // ==================== ROW 1 (TOP) ====================
             // --- Left Half ---
-            = <&key_physical_attrs 100 100    0  125 (-500)  100  290> // Left Outer Pinky Top (Q)
-            , <&key_physical_attrs 100 100  100  125 (-500)  100  290> // Left Pinky Top (Q)
-            , <&key_physical_attrs 100 100  200   50 (-500)  100  290> // Left Ring Top (W)
-            , <&key_physical_attrs 100 100  333  290      0  100  290> // Left Middle Top (E)
-            , <&key_physical_attrs 100 100  475    0    500  100  290> // Left Index Top (R)
-            , <&key_physical_attrs 100 100  575   35    500  100  290> // Left Inner Index Top (T)
+            = <&key_physical_attrs 100 100    0  125 (-500)  100    0> // Left Outer Pinky Top (Esc)
+            , <&key_physical_attrs 100 100  100  125 (-500)  100    0> // Left Pinky Top (Q)
+            , <&key_physical_attrs 100 100  200   50 (-500)  100    0> // Left Ring Top (W)
+            , <&key_physical_attrs 100 100  333    0      0  100    0> // Left Middle Top (F)
+            , <&key_physical_attrs 100 100  475    0    500  100    0> // Left Index Top (P)
+            , <&key_physical_attrs 100 100  575   35    500  100    0> // Left Inner Index Top (G)
             // --- Right Half ---
-            , <&key_physical_attrs 100 100 1375   35 (-500) 1950  290> // Right Inner Index Top (Y)
-            , <&key_physical_attrs 100 100 1475    0 (-500) 1950  290> // Right Index Top (U)
-            , <&key_physical_attrs 100 100 1617  290      0 1950  290> // Right Middle Top (I)
-            , <&key_physical_attrs 100 100 1750   50    500 1950  290> // Right Ring Top (O)
-            , <&key_physical_attrs 100 100 1850  125    500 1950  290> // Right Pinky Top (P)
-            , <&key_physical_attrs 100 100 1950  125    500 1950  290> // Right Outer Pinky Top (P)
+            , <&key_physical_attrs 100 100 1375   35 (-500) 1950    0> // Right Inner Index Top (L)
+            , <&key_physical_attrs 100 100 1475    0 (-500) 1950    0> // Right Index Top (Y)
+            , <&key_physical_attrs 100 100 1617    0      0 1950    0> // Right Middle Top (U)
+            , <&key_physical_attrs 100 100 1750   50    500 1950    0> // Right Ring Top (I)
+            , <&key_physical_attrs 100 100 1850  125    500 1950    0> // Right Pinky Top (Scln)
+            , <&key_physical_attrs 100 100 1950  125    500 1950    0> // Right Outer Pinky Top (Del)
 
             // ==================== ROW 2 (HOME) ====================
             // --- Left Half ---
-            , <&key_physical_attrs 100 100    0  225 (-500)  100  290> // Left Outer Pinky Home (A)
-            , <&key_physical_attrs 100 100  100  225 (-500)  100  290> // Left Pinky Home (A)
-            , <&key_physical_attrs 100 100  200  150 (-500)  100  290> // Left Ring Home (S)
-            , <&key_physical_attrs 100 100  333  380      0  100  290> // Left Middle Home (D)
-            , <&key_physical_attrs 100 100  475  100    500  100  290> // Left Index Home (F)
-            , <&key_physical_attrs 100 100  575  135    500  100  290> // Left Inner Index Home (G)
+            , <&key_physical_attrs 100 100    0  225 (-500)  100    0> // Left Outer Pinky Home (Shft)
+            , <&key_physical_attrs 100 100  100  225 (-500)  100    0> // Left Pinky Home (A)
+            , <&key_physical_attrs 100 100  200  150 (-500)  100    0> // Left Ring Home (R)
+            , <&key_physical_attrs 100 100  333   90      0  100    0> // Left Middle Home (S)
+            , <&key_physical_attrs 100 100  475  100    500  100    0> // Left Index Home (T)
+            , <&key_physical_attrs 100 100  575  135    500  100    0> // Left Inner Index Home (D)
             // --- Right Half ---
-            , <&key_physical_attrs 100 100 1375  135 (-500) 1950  290> // Right Inner Index Home (H)
-            , <&key_physical_attrs 100 100 1475  100 (-500) 1950  290> // Right Index Home (J)
-            , <&key_physical_attrs 100 100 1617  380      0 1950  290> // Right Middle Home (K)
-            , <&key_physical_attrs 100 100 1750  150    500 1950  290> // Right Ring Home (L)
-            , <&key_physical_attrs 100 100 1850  225    500 1950  290> // Right Pinky Home (Scln)
-            , <&key_physical_attrs 100 100 1950  225    500 1950  290> // Right Outer Pinky Home (Quote)
+            , <&key_physical_attrs 100 100 1375  135 (-500) 1950    0> // Right Inner Index Home (H)
+            , <&key_physical_attrs 100 100 1475  100 (-500) 1950    0> // Right Index Home (N)
+            , <&key_physical_attrs 100 100 1617   90      0 1950    0> // Right Middle Home (E)
+            , <&key_physical_attrs 100 100 1750  150    500 1950    0> // Right Ring Home (O)
+            , <&key_physical_attrs 100 100 1850  225    500 1950    0> // Right Pinky Home (Quote)
+            , <&key_physical_attrs 100 100 1950  225    500 1950    0> // Right Outer Pinky Home (Quote)
 
             // ==================== ROW 3 (BOTTOM) ====================
             // --- Left Half ---
-            , <&key_physical_attrs 100 100    0  325 (-500)  100  290> // Left Outer Pinky Bot (Z)
-            , <&key_physical_attrs 100 100  100  325 (-500)  100  290> // Left Pinky Bot (Z)
-            , <&key_physical_attrs 100 100  200  250 (-500)  100  290> // Left Ring Bot (X)
-            , <&key_physical_attrs 100 100  333  480      0  100  290> // Left Middle Bot (C)
-            , <&key_physical_attrs 100 100  475  200    500  100  290> // Left Index Bot (V)
-            , <&key_physical_attrs 100 100  575  235    500  100  290> // Left Inner Index Bot (B)
+            , <&key_physical_attrs 100 100    0  325 (-500)  100    0> // Left Outer Pinky Bot (Ctrl)
+            , <&key_physical_attrs 100 100  100  325 (-500)  100    0> // Left Pinky Bot (Z)
+            , <&key_physical_attrs 100 100  200  250 (-500)  100    0> // Left Ring Bot (X)
+            , <&key_physical_attrs 100 100  333  190      0  100    0> // Left Middle Bot (C)
+            , <&key_physical_attrs 100 100  475  200    500  100    0> // Left Index Bot (V)
+            , <&key_physical_attrs 100 100  575  235    500  100    0> // Left Inner Index Bot (B)
             // --- Right Half ---
-            , <&key_physical_attrs 100 100 1375  235 (-500) 1950  290> // Right Inner Index Bot (N)
-            , <&key_physical_attrs 100 100 1475  200 (-500) 1950  290> // Right Index Bot (M)
-            , <&key_physical_attrs 100 100 1617  480      0 1950  290> // Right Middle Bot (Comma)
-            , <&key_physical_attrs 100 100 1750  250    500 1950  290> // Right Ring Bot (Dot)
-            , <&key_physical_attrs 100 100 1850  325    500 1950  290> // Right Pinky Bot (Slash)
-            , <&key_physical_attrs 100 100 1950  325    500 1950  290> // Right Outer Pinky Bot (Shift)
+            , <&key_physical_attrs 100 100 1375  235 (-500) 1950    0> // Right Inner Index Bot (K)
+            , <&key_physical_attrs 100 100 1475  200 (-500) 1950    0> // Right Index Bot (M)
+            , <&key_physical_attrs 100 100 1617  190      0 1950    0> // Right Middle Bot (Comma)
+            , <&key_physical_attrs 100 100 1750  250    500 1950    0> // Right Ring Bot (Dot)
+            , <&key_physical_attrs 100 100 1850  325    500 1950    0> // Right Pinky Bot (Slash)
+            , <&key_physical_attrs 100 100 1950  325    500 1950    0> // Right Outer Pinky Bot (Shft)
 
             // ==================== THUMB CLUSTER ROW 1 (TOP) ====================
             // --- Left Half ---
-            , <&key_physical_attrs 100 100  625  250   1500  100  290> // Left Thumb Top-Left
-            , <&key_physical_attrs 100 100  725  250   1500  100  290> // Left Thumb Top-Mid
-            , <&key_physical_attrs 100 100  825  275   1500  100  290> // Left Thumb Top-Right
+            , <&key_physical_attrs 100 100  625  250   1500  100    0> // Left Thumb Top-Left
+            , <&key_physical_attrs 100 100  725  250   1500  100    0> // Left Thumb Top-Mid
+            , <&key_physical_attrs 100 100  825  275   1500  100    0> // Left Thumb Top-Right
             // --- Right Half ---
-            , <&key_physical_attrs 100 100 1125  275 (-1500) 1950  290> // Right Thumb Top-Left
-            , <&key_physical_attrs 100 100 1225  250 (-1500) 1950  290> // Right Thumb Top-Mid
-            , <&key_physical_attrs 100 100 1325  250 (-1500) 1950  290> // Right Thumb Top-Right
+            , <&key_physical_attrs 100 100 1125  275 (-1500) 1950    0> // Right Thumb Top-Left
+            , <&key_physical_attrs 100 100 1225  250 (-1500) 1950    0> // Right Thumb Top-Mid
+            , <&key_physical_attrs 100 100 1325  250 (-1500) 1950    0> // Right Thumb Top-Right
 
             // ==================== THUMB CLUSTER ROW 2 (BOTTOM) ====================
             // --- Left Half ---
-            , <&key_physical_attrs 100 100  625  350   1500  100  290> // Left Thumb Bot-Left
-            , <&key_physical_attrs 100 100  725  350   1500  100  290> // Left Thumb Bot-Mid
-            , <&key_physical_attrs 100 100  825  375   1500  100  290> // Left Thumb Bot-Right
+            , <&key_physical_attrs 100 100  625  350   1500  100    0> // Left Thumb Bot-Left
+            , <&key_physical_attrs 100 100  725  350   1500  100    0> // Left Thumb Bot-Mid
+            , <&key_physical_attrs 100 100  825  375   1500  100    0> // Left Thumb Bot-Right
             // --- Right Half ---
-            , <&key_physical_attrs 100 100 1125  375 (-1500) 1950  290> // Right Thumb Bot-Left
-            , <&key_physical_attrs 100 100 1225  350 (-1500) 1950  290> // Right Thumb Bot-Mid
-            , <&key_physical_attrs 100 100 1325  350 (-1500) 1950  290> // Right Thumb Bot-Right
+            , <&key_physical_attrs 100 100 1125  375 (-1500) 1950    0> // Right Thumb Bot-Left
+            , <&key_physical_attrs 100 100 1225  350 (-1500) 1950    0> // Right Thumb Bot-Mid
+            , <&key_physical_attrs 100 100 1325  350 (-1500) 1950    0> // Right Thumb Bot-Right
             ;
     };
 };
