@@ -1,5 +1,5 @@
 // See https://zmk.dev/docs/development/hardware-integration/physical-layouts
-// for how to configure this.
+// for how to configure this in your shield.
 
 #include <physical_layouts.dtsi>
 
@@ -7,17 +7,77 @@
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
-        transform = <&default_transform>;
-        kscan = <&kscan>;
+        transform = <&default_transform>; // Update to match your matrix transform
+        kscan = <&kscan>;                 // Update to match your kscan node
 
-        // Edit this to define the positions and sizes of the keys, or remove it
-        // if your keyboard will not support ZMK Studio.
-        // https://zmk.dev/docs/development/hardware-integration/physical-layouts#optional-keys-property
-        keys  //                     w   h    x    y     rot    rx    ry
-            = <&key_physical_attrs 100 100    0    0       0     0     0>
-            , <&key_physical_attrs 100 100  100    0       0     0     0>
-            , <&key_physical_attrs 100 100    0  100       0     0     0>
-            , <&key_physical_attrs 100 100  100  100       0     0     0>
+        keys 
+            // ==================== ROW 1 (TOP) ====================
+            // --- Left Half ---
+            = <&key_physical_attrs 100 100    0  125 (-500)  100  290> // Left Outer Pinky Top (Q)
+            , <&key_physical_attrs 100 100  100  125 (-500)  100  290> // Left Pinky Top (Q)
+            , <&key_physical_attrs 100 100  200   50 (-500)  100  290> // Left Ring Top (W)
+            , <&key_physical_attrs 100 100  333  290      0  100  290> // Left Middle Top (E)
+            , <&key_physical_attrs 100 100  475    0    500  100  290> // Left Index Top (R)
+            , <&key_physical_attrs 100 100  575   35    500  100  290> // Left Inner Index Top (T)
+            // --- Right Half ---
+            , <&key_physical_attrs 100 100 1375   35 (-500) 1950  290> // Right Inner Index Top (Y)
+            , <&key_physical_attrs 100 100 1475    0 (-500) 1950  290> // Right Index Top (U)
+            , <&key_physical_attrs 100 100 1617  290      0 1950  290> // Right Middle Top (I)
+            , <&key_physical_attrs 100 100 1750   50    500 1950  290> // Right Ring Top (O)
+            , <&key_physical_attrs 100 100 1850  125    500 1950  290> // Right Pinky Top (P)
+            , <&key_physical_attrs 100 100 1950  125    500 1950  290> // Right Outer Pinky Top (P)
+
+            // ==================== ROW 2 (HOME) ====================
+            // --- Left Half ---
+            , <&key_physical_attrs 100 100    0  225 (-500)  100  290> // Left Outer Pinky Home (A)
+            , <&key_physical_attrs 100 100  100  225 (-500)  100  290> // Left Pinky Home (A)
+            , <&key_physical_attrs 100 100  200  150 (-500)  100  290> // Left Ring Home (S)
+            , <&key_physical_attrs 100 100  333  380      0  100  290> // Left Middle Home (D)
+            , <&key_physical_attrs 100 100  475  100    500  100  290> // Left Index Home (F)
+            , <&key_physical_attrs 100 100  575  135    500  100  290> // Left Inner Index Home (G)
+            // --- Right Half ---
+            , <&key_physical_attrs 100 100 1375  135 (-500) 1950  290> // Right Inner Index Home (H)
+            , <&key_physical_attrs 100 100 1475  100 (-500) 1950  290> // Right Index Home (J)
+            , <&key_physical_attrs 100 100 1617  380      0 1950  290> // Right Middle Home (K)
+            , <&key_physical_attrs 100 100 1750  150    500 1950  290> // Right Ring Home (L)
+            , <&key_physical_attrs 100 100 1850  225    500 1950  290> // Right Pinky Home (Scln)
+            , <&key_physical_attrs 100 100 1950  225    500 1950  290> // Right Outer Pinky Home (Quote)
+
+            // ==================== ROW 3 (BOTTOM) ====================
+            // --- Left Half ---
+            , <&key_physical_attrs 100 100    0  325 (-500)  100  290> // Left Outer Pinky Bot (Z)
+            , <&key_physical_attrs 100 100  100  325 (-500)  100  290> // Left Pinky Bot (Z)
+            , <&key_physical_attrs 100 100  200  250 (-500)  100  290> // Left Ring Bot (X)
+            , <&key_physical_attrs 100 100  333  480      0  100  290> // Left Middle Bot (C)
+            , <&key_physical_attrs 100 100  475  200    500  100  290> // Left Index Bot (V)
+            , <&key_physical_attrs 100 100  575  235    500  100  290> // Left Inner Index Bot (B)
+            // --- Right Half ---
+            , <&key_physical_attrs 100 100 1375  235 (-500) 1950  290> // Right Inner Index Bot (N)
+            , <&key_physical_attrs 100 100 1475  200 (-500) 1950  290> // Right Index Bot (M)
+            , <&key_physical_attrs 100 100 1617  480      0 1950  290> // Right Middle Bot (Comma)
+            , <&key_physical_attrs 100 100 1750  250    500 1950  290> // Right Ring Bot (Dot)
+            , <&key_physical_attrs 100 100 1850  325    500 1950  290> // Right Pinky Bot (Slash)
+            , <&key_physical_attrs 100 100 1950  325    500 1950  290> // Right Outer Pinky Bot (Shift)
+
+            // ==================== THUMB CLUSTER ROW 1 (TOP) ====================
+            // --- Left Half ---
+            , <&key_physical_attrs 100 100  625  250   1500  100  290> // Left Thumb Top-Left
+            , <&key_physical_attrs 100 100  725  250   1500  100  290> // Left Thumb Top-Mid
+            , <&key_physical_attrs 100 100  825  275   1500  100  290> // Left Thumb Top-Right
+            // --- Right Half ---
+            , <&key_physical_attrs 100 100 1125  275 (-1500) 1950  290> // Right Thumb Top-Left
+            , <&key_physical_attrs 100 100 1225  250 (-1500) 1950  290> // Right Thumb Top-Mid
+            , <&key_physical_attrs 100 100 1325  250 (-1500) 1950  290> // Right Thumb Top-Right
+
+            // ==================== THUMB CLUSTER ROW 2 (BOTTOM) ====================
+            // --- Left Half ---
+            , <&key_physical_attrs 100 100  625  350   1500  100  290> // Left Thumb Bot-Left
+            , <&key_physical_attrs 100 100  725  350   1500  100  290> // Left Thumb Bot-Mid
+            , <&key_physical_attrs 100 100  825  375   1500  100  290> // Left Thumb Bot-Right
+            // --- Right Half ---
+            , <&key_physical_attrs 100 100 1125  375 (-1500) 1950  290> // Right Thumb Bot-Left
+            , <&key_physical_attrs 100 100 1225  350 (-1500) 1950  290> // Right Thumb Bot-Mid
+            , <&key_physical_attrs 100 100 1325  350 (-1500) 1950  290> // Right Thumb Bot-Right
             ;
     };
 };
