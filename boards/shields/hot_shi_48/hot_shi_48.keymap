@@ -37,7 +37,7 @@ combos {
         compatible = "zmk,combos";
 
         combo_win_o {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <22 40>;
             bindings = <&sk LGUI>;
@@ -45,7 +45,7 @@ combos {
         };
 
         combo_alt_i {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <21 40>;
             bindings = <&sk LALT>;
@@ -53,7 +53,7 @@ combos {
         };
         
         combo_shift_e {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <20 40>;
             bindings = <&sk LSHIFT>;
@@ -61,7 +61,7 @@ combos {
         };
 
         combo_ctrl_n {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <19 40>;
             bindings = <&sk LCTRL>;
@@ -71,7 +71,7 @@ combos {
 
 
         combo_win_a {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <13 37>;
             bindings = <&sk LGUI>;
@@ -79,7 +79,7 @@ combos {
         };
 
         combo_alt_r {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <14 37>;
             bindings = <&sk LALT>;
@@ -87,7 +87,7 @@ combos {
         };
         
         combo_shift_s {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <15 37>;
             bindings = <&sk LSHIFT>;
@@ -95,7 +95,7 @@ combos {
         };
 
         combo_ctrl_t {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             // triggers one time shift when pressing N and backspace
             key-positions = <16 37>;
             bindings = <&sk LCTRL>;
