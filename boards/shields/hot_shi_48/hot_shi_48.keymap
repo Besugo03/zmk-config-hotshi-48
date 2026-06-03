@@ -144,7 +144,7 @@ combos {
                 &trans    &trans    &trans          &kp K_BACK          &kp K_FORWARD           &trans      &trans &kp HOME  &kp LA(F4) &kp END &trans  &trans
 
                                                 &mo _EXTRA    &trans    &trans                  &trans  &trans   &trans
-                                                &trans    &trans    &trans                      &trans  &trans   &bootloader
+                                                &trans    &trans    &trans                      &bootloader  &trans   &trans
             >;
         };
 
