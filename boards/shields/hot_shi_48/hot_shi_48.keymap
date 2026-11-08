@@ -105,7 +105,7 @@ combos {
 
         gaming_layer_toggle {
             timeout-ms = <60>;
-            key-positions = <37 43>; // space + button underneath
+            key-positions = <36 42>; // space + button underneath
             bindings = <&tog _GAMING>;
             layers = <_BASE _GAMING>;
         };
